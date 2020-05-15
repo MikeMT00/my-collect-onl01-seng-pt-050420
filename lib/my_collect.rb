@@ -4,7 +4,7 @@ def my_collect(array)
   binding.pry
   empty_array = [ ]
   counter = 0
-  array do |x|
+  array.each do |x|
     counter += 1
   end
 counter
