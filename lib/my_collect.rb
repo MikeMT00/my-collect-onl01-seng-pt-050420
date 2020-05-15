@@ -8,5 +8,5 @@ def my_collect(array)
     binding.pry
     counter += 1
   end
-counter
+empty_array
 end
