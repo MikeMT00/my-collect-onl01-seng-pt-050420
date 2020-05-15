@@ -5,7 +5,7 @@ def my_collect(array)
   empty_array = [ ]
   counter = 0
   array.each do |x|
-    binding.pry
+    empty_array << yield(array[counter])
     counter += 1
   end
 empty_array
