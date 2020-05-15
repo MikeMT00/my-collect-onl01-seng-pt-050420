@@ -1,7 +1,7 @@
 require "pry"
 
 def my_collect(array)
-  binding.pry
+#  binding.pry
   empty_array = [ ]
   counter = 0
   array.each do |x|
